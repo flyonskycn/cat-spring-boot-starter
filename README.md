@@ -16,7 +16,7 @@ cat-spring-boot-starter依赖于[autoconfigure项目](https://github.com/flyonsk
 </dependency>
 ```
 ### 配置Cat的服务器地址配置
-1. 新建/data/appdatas/cat目录,确保启动程序的用户对其具有读写权限。
+1. 新建/data/appdatas/cat目录,确保启动程序的用户对其具有读写权限。修改Cat的默认目录可以通过设置环境变量CAT_HOME,修改为自定义的目录。
 2. 新建/data/applogs/cat目录,  确保启动程序的用户对其具有读写权限。Cat日志会输出到本目录。
 3. 新建/data/appdatas/cat/client.xml文件。
 ```xml
