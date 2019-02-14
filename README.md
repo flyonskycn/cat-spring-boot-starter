@@ -28,7 +28,6 @@ cat-spring-boot-starter依赖于[autoconfigure项目](https://github.com/flyonsk
 </config>
 ```
 > 记录修改IP地址为Cat服务器的地址
-
 [详细信息参见](https://github.com/dianping/cat/blob/master/lib/_/preparations.md)
 
 **在使用Cat时，为何需要在环境上设置，而不是在程序项目中设置？这需要理解为Cat为一个整体配置，整个环境只需要配置一个即可，不需要每个程序单独配置**
